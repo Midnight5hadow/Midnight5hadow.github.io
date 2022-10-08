@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div style="position: absolute;">
+            <div id="content">
+                <input type="file" id="thefile" accept="audio/*" />
+                <canvas id="canvas"></canvas>
+                <!-- <audio id="audio"></audio> -->
+                <audio autoplay="autoplay" id="audio">
+                    <source src="https://www.youtube.com/watch?v=Jrg9KxGNeJY&ab_channel=%E3%83%87%E3%83%93%E3%83%AB%E3%83%8F%E3%83%B3%E3%82%BF%E3%83%BChunter" />
+                </audio>
+            </div>
+        </div>
+
+        <div style="position: absolute;" class="body">
+            <div style="position: absolute;">
+                <h2>make a request</h2>
+            </div>
+            <div class="centre">
+                <div id="audioprompt" style="position: absolute;display: none;">
+                    <button id="playbutton">play audio</button>
+                    <button id="nobutton">no audio</button>
+                </div>
+                <h1>We F<div class="playbutton" onclick="playpause()">⏵</div>il <sub>U Corp.</sub></h1>
+            </div>
+        </div>
+        
+        <script src="script.js"></script>
+    </body>
+</html>
