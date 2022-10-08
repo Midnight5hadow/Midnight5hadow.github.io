@@ -1,9 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 
+body {
+    overflow: hidden;
+}
 body, html, .body {
     width: 100%;
     height: 100%;
     font-family: 'Comforter Brush', cursive;
+}
+input[type="text"], button {
+    font-family: 'Dancing Script', cursive;
+    background: none;
+    border: 1px solid white;
+    font-size: 2rem;
+    transition: 0.3s;
+}
+button:hover {
+    border: 1.5px solid rgb(255, 219, 224);
+}
+input[type="text"]:hover, input[type="text"]:active {
+    border-bottom: 1px solid black;
+}
+input[type="text"]::placeholder {
+    color: black;
+
 }
 .body {
     background-image: url(la-girl.png);
