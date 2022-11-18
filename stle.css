@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+h1 {
+    font-family: "Cookie", cursive;
+    font-weight: lighter;
+    font-size: 5rem;
+}
+.help {
+    font-family: "Cookie", cursive;
+    font-size: 3rem;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+p {
+    font-size: 1.5em;
+    font-family: 'Bad Script', cursive;
+}
+a {
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px solid black;
+}
